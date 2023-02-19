@@ -69,11 +69,11 @@ btnHold.addEventListener('click', function(){
     }
 }
 });
-
+// newgame button
 btnNew.addEventListener('click', function(){
         document.querySelector(".player--0").classList.add('player--active');
         document.querySelector(".player--1").classList.remove('player--active');
-        document.querySelector(".player--1").classList.remove('player--winner');
+        document.querySelector(".player--0").classList.remove('player--winner');
         document.querySelector(".player--1").classList.remove('player--winner');
 
         // setting scores value 0
